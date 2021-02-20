@@ -1,1 +1,1 @@
-# digitech_summary
+# Digital Design and Computer Architecture Summary
