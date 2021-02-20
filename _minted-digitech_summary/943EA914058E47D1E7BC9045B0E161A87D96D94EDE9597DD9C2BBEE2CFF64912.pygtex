@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+    \PYG{c+c1}{// Hello.java}
+    \PYG{k+kn}{import} \PYG{n+nn}{javax.swing.JApplet}\PYG{p}{;}
+    \PYG{k+kn}{import} \PYG{n+nn}{java.awt.Graphics}\PYG{p}{;}
+
+    \PYG{k+kd}{public} \PYG{k+kd}{class} \PYG{n+nc}{Hello} \PYG{k+kd}{extends} \PYG{n}{JApplet} \PYG{p}{\PYGZob{}}
+        \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{paintComponent}\PYG{p}{(}\PYG{n}{Graphics} \PYG{n}{g}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+            \PYG{n}{g}\PYG{p}{.}\PYG{n+na}{drawString}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Hello, world!\PYGZdq{}}\PYG{p}{,} \PYG{l+m+mi}{65}\PYG{p}{,} \PYG{l+m+mi}{95}\PYG{p}{);}
+        \PYG{p}{\PYGZcb{}}
+    \PYG{p}{\PYGZcb{}}
+\end{Verbatim}
