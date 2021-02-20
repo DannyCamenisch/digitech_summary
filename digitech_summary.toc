@@ -1,6 +1,0 @@
-\contentsline {chapter}{\numberline {1}Template}{2}%
-\contentsline {section}{\numberline {1.1}tcolorbox}{2}%
-\contentsline {section}{\numberline {1.2}minted}{2}%
-\contentsline {chapter}{\numberline {2}Course Information}{3}%
-\contentsline {section}{\numberline {2.1}Description}{3}%
-\contentsline {chapter}{\numberline {3}TITLE}{4}%
