@@ -11,7 +11,7 @@ Microprocessors where and still are a fundamental building block for the technol
 three decades. Without them things like the Internet and cell phones would not exist. But for the
 development of new chips performance is not always the main priority. While performance is important,
 there is always a tradeoff between many different other aspects, including power consumption, temperature
-price and size, only to mention some of them. \\
+price and size, only to mention some of them.
 
 Systems like a microprocessor can get really complicated to understand on a low level. To get a better
 understanding of such a system, it is necessary to use different techniques:
@@ -50,10 +50,10 @@ dealing with addition one has to be carefull to check for overflow of the carry 
 \end{satz}
 
 There are multiple ways to represent a negative number in the binary system. The two most common ones are
-called sign/magnitude and two's complement. \\
+called sign/magnitude and two's complement.
 
 \textbf{Sign/Magnitude}: We use the MSB as a sign bit, this causes the problems that addition will no longer work
-and there exists both $+0$ and $-0$. This covers the range $[-2^{N-1}+1, 2^{N-1}-1]$. \\
+and there exists both $+0$ and $-0$. This covers the range $[-2^{N-1}+1, 2^{N-1}-1]$.
 
 \textbf{Two's Complement}: Same system as a unsigned binary number except the MSB has a weight of $-2^{N-1}$.
 Here addition works fine and there is only one representation for $0$. The process of creating a negative number
@@ -62,7 +62,7 @@ consists of inverting all the bits of the number and adding $1$ to the LSB. This
 \section{Logic Gates}
 
 Logic Gates are simple digital circuits that take one or more binary inputs (denoted by letters from the beginning of the alphabet) and 
-produce a binary output (commonly denoted Y). The most common logic gates are: \\
+produce a binary output (commonly denoted Y). The most common logic gates are:
 
 \begin{figure}[h]
     \centering
@@ -102,25 +102,26 @@ $NM_H = V_{OH} - V_{IH}$.
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=9cm]{noise.jpg}
-    \caption{Example}
+    \includegraphics[width=11cm]{noise.jpg}
+    \caption{Noise characteristics}
 \end{figure}
 
 \paragraph{CMOS Transistors:} We skip the detailed explanation of how a transistor works and look at what it does.
 A transistor can be viewed as a electrically controlled switch that turns ON or OFF when a voltage is applied to a
-controll terminal. The most common transistors are MOS transistors (or MOSFET). There are two types nMOS and pMOS. \\
-
+controll terminal. The most common transistors are MOS transistors (or MOSFET). There are two types nMOS and pMOS.
+\pagebreak
 \begin{figure}[h]
     \centering
-    \includegraphics[width=9cm]{mosfet.jpg}
+    \includegraphics[width=11cm]{mosfet.jpg}
     \caption{MOS transistors}
 \end{figure}
+\pagebreak
 
 \paragraph{Logic Gates:} We can use transistor to build logic gates, as an example we will have a look at how a AND gate is
 built. A AND gate consists of a NAND gate and a NOT gate, that are made up by transistors as can be seen in the figure.
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=8cm]{cmosAnd.jpeg}
+    \includegraphics[width=10cm]{cmosAnd.jpeg}
     \caption{MOS transistors}
 \end{figure}
